@@ -1,0 +1,15 @@
+//btns etc
+
+.restart {
+    font-size: 3rem;
+    background: none;
+    border: 10px outset  rgba(0, 24, 77, 0.616);
+    border-radius: 0 10px 0 10px;
+    outline: none;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    &:hover {
+        padding: 10px;
+        transition: 1s;
+    }
+}
